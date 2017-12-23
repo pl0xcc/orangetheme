@@ -20,7 +20,7 @@ body {
 	overflow: auto;
 }
 table tbody, .main_column, .sidebar, .box, .thin, .pad, #threadpoll, #poll {
-	color: #b23d00;
+	color: #b23d00!important;
 }
 a {
 	text-decoration: none;
@@ -100,7 +100,7 @@ a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
 }
 h1, h2, h3 {
 	margin: 5px 0px;
-	color: #919191;
+	color: white;
 	font-family: Lato,Arial,Helvetica,sans-serif;
 	text-align: center;
 }
@@ -547,6 +547,7 @@ tr.colhead_dark td {
 }
 .main_column {
 	width: 692px;
+	margin-top: 31px;
 }
 .main_column table {
 	margin-bottom: 10px;
@@ -562,7 +563,7 @@ tr.colhead_dark td {
 	color: #b23d00;
 }
 .group_torrent a {
-	color: #f7f7f7;
+	color: #e54e00;
 }
 .group_torrent a:hover {
 	color: #5AF;
@@ -716,7 +717,7 @@ div#ft_container tr {
 	background: transparent;
 }
 h2 span {
-	color: #9a9a9a;
+	color: white;
 }
 .filter_torrents .submit {
 	text-align: right;
@@ -730,14 +731,14 @@ h2 span {
 }
 .torrent_table tr {
 	vertical-align: top;
-	background: #190b00;
+	background: black;
 }
 .torrent_table tr.group {
 	background-color: #222;
 }
 .torrent_table tr.group_torrent {
-	background-color: #282828;
-	border-bottom: 1px solid #1f1f1f;
+	background-color: #190b00;
+	border-bottom: 1px solid #331701;
 	font-size: 11px;
 }
 #taglist {
@@ -747,7 +748,7 @@ h2 span {
 	padding: 5px;
 }
 tr.group_torrent td, tr.group td, tr.torrent td {
-	color: #969696;
+	color: orange;
 }
 .torrent_table.grouping tr.torrent, .torrent_table.no_grouping tr.torrent {
 	background-color: #1d1c1c;
