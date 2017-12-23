@@ -1139,3 +1139,37 @@ table.forum_post:last-of-type {
 .collage_table {
 	background: #190b00;;
 }
+
+form textarea, form input {
+    max-width: 100%;
+    background: black;
+    color: orange;
+    border: black;
+}
+
+ul.collage_images img {
+    height: 172px;
+    width: 172px;
+    padding: 0px;
+    background: #190b00;
+}
+
+ul.collage_images li a {
+    display: block;
+    height: 172px;
+    overflow: hidden;
+}
+ul.collage_images li {
+    border: none;
+    float: left;
+    margin: 0;
+    width: 172px;
+    height: 172px;
+    list-style: none;
+    list-style-type: none;
+}
+ul.collage_images {
+    padding: 0px;
+    width: 689px;
+    border-collapse: collapse;
+}
