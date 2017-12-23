@@ -20,7 +20,7 @@ body {
 	overflow: auto;
 }
 table tbody, .main_column, .sidebar, .box, .thin, .pad, #threadpoll, #poll {
-	color: #b23d00;
+	color: #b23d00!important;
 }
 a {
 	text-decoration: none;
@@ -100,7 +100,7 @@ a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
 }
 h1, h2, h3 {
 	margin: 5px 0px;
-	color: #919191;
+	color: white;
 	font-family: Lato,Arial,Helvetica,sans-serif;
 	text-align: center;
 }
@@ -464,7 +464,7 @@ input.hidden {
 .linkbox {
 	text-align: center;
 	padding: 5px;
-	color: #9a9a9a;
+	color: #b23d00;
 }
 .center {
 	text-align: center;
@@ -547,6 +547,7 @@ tr.colhead_dark td {
 }
 .main_column {
 	width: 692px;
+	margin-top: 31px;
 }
 .main_column table {
 	margin-bottom: 10px;
@@ -562,7 +563,7 @@ tr.colhead_dark td {
 	color: #b23d00;
 }
 .group_torrent a {
-	color: #f7f7f7;
+	color: #e54e00;
 }
 .group_torrent a:hover {
 	color: #5AF;
@@ -585,10 +586,10 @@ tr {
 	border: none;
 }
 tr.rowa {
-	background-color: #262626;
+	background-color: #140800;
 }
 tr.rowb {
-	background-color: #222;
+	background-color: #190b00;
 }
 td, th {
 	border: none;
@@ -625,6 +626,7 @@ table {
 td.colhead, .colhead td, .colhead th {
 	padding-left: 10px;
 	padding-right: 10px;
+	color: orange;
 }
 .colhead .sign, .colhead_dark .sign {
 	padding: 0px 8px 0px 8px;
@@ -716,7 +718,7 @@ div#ft_container tr {
 	background: transparent;
 }
 h2 span {
-	color: #9a9a9a;
+	color: white;
 }
 .filter_torrents .submit {
 	text-align: right;
@@ -730,14 +732,14 @@ h2 span {
 }
 .torrent_table tr {
 	vertical-align: top;
-	background: #190b00;
+	background: black;
 }
 .torrent_table tr.group {
-	background-color: #222;
+	background-color: #190b00;
 }
 .torrent_table tr.group_torrent {
-	background-color: #282828;
-	border-bottom: 1px solid #1f1f1f;
+	background-color: #190b00;
+	border-bottom: 1px solid #331701;
 	font-size: 11px;
 }
 #taglist {
@@ -747,7 +749,7 @@ h2 span {
 	padding: 5px;
 }
 tr.group_torrent td, tr.group td, tr.torrent td {
-	color: #969696;
+	color: orange;
 }
 .torrent_table.grouping tr.torrent, .torrent_table.no_grouping tr.torrent {
 	background-color: #1d1c1c;
@@ -952,11 +954,11 @@ ul .invitetree {
 	z-index: -1;
 }
 input[type="button"], input[type="submit"] {
-	background: #111 url('https://i.imgur.com/3esLSKv.png') repeat-x;
+	background: #772f00;
 	display: inline-block;
 	padding: 3px 6px 4px;
 	margin: 3px;
-	color: #f7f7f7;
+	color: orange;
 	text-decoration: none;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -965,7 +967,7 @@ input[type="button"], input[type="submit"] {
 	border-left: 0;
 	border-top: 0;
 	border-right: 0;
-	border-bottom: 1px solid rgba(0,0,0,0.25);
+	border: 1px solid #5e2500;
 	cursor: pointer;
 }
 input[type="button"]:hover, input[type="submit"]:hover {
@@ -991,7 +993,7 @@ input[type="button"]:active, input[type="submit"]:active, input[type="submit"]:f
 	cursor: pointer;
 }
 input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
-	background: #f7f7f7;
+	background: black;
 	display: inline-block;
 	padding: 3px;
 	margin: 3px;
@@ -1001,6 +1003,7 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sea
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 2px;
 	border: none;
+	border: 1px solid #772f00;
 }
 input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:hover, input[type="email"]:focus, input[type="search"]:hover, input[type="search"]:focus, input[type="password"]:hover, input[type="password"]:focus {
 	color: #333;
@@ -1066,7 +1069,7 @@ tr.torrent .bookmark > a:after {
 	max-width: 409px;
 }
 .linkbox .brackets:before, .linkbox .brackets:after, .top10_quantity_links .brackets:before, .top10_quantity_links .brackets:after {
-	color: #FCFCFC;
+	color: #b23d00!important;
 }
 #userinfo_username .brackets:before {
 	content: "[";
@@ -1129,4 +1132,9 @@ input[type="search"] {
 }
 table.forum_post:last-of-type {
 	margin-bottom: 5px;
+}
+
+
+.collage_table {
+	background: #190b00;;
 }
