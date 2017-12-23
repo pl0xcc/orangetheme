@@ -519,7 +519,7 @@ tr.colhead_dark td {
 	color: #af3b00;
 }
 .forum_list a:hover, .forum_index a:hover {
-	color: #5AF;
+	color: orange;
 }
 .forum_list .colhead td, .forum_index .colhead td {
 	padding-top: 6px;
