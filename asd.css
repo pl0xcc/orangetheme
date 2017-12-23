@@ -203,7 +203,7 @@ ul.thin li {
 	border-top: 1px solid #772800;
 }
 .forum_index tr td:nth-child(3n) a.tooltip {
-	color: #f7f7f7;
+	color: #bb4000;
 }
 #footer:after {
 	content: url('https://apollo.rip/static/styles/postmod/images/gazelle.png');
@@ -516,10 +516,10 @@ tr.colhead_dark td {
 	font-size: 12px;
 }
 .forum_list a, .forum_list .colhead, .forum_index a, .forum_index .colhead {
-	color: #af3b00;
+	color: #bb4000;
 }
 .forum_list a:hover, .forum_index a:hover {
-	color: orange;
+	color: #5AF;
 }
 .forum_list .colhead td, .forum_index .colhead td {
 	padding-top: 6px;
@@ -1171,14 +1171,3 @@ ul.collage_images {
     width: 689px!important;
     border-collapse: collapse;
 }
-.noty_message {
-	background: #190b00;
-}
-.noty_buttons {
-	background: #190b00!important;
-	border-top: none!important;
-}
-.noty_message {color: white;}
-.noty_button_view { color: white!important;}
-.noty_button_clear { color: white!important;}
-.noty_button_close { color: white!important;}
