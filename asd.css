@@ -30,7 +30,7 @@ a {
 	transition: color .25s ease-out;
 }
 a:hover {
-	color: #5AF;
+	color: white;
 }
 a img {
 	border: 0;
@@ -105,7 +105,7 @@ h1, h2, h3 {
 	text-align: center;
 }
 h1 a, h2 a, h3 a {
-	color: #f7f7f7;
+	color: orange;
 }
 ul#noty_bottomRight_layout_container a {
 	color: #5AF;
@@ -516,10 +516,10 @@ tr.colhead_dark td {
 	font-size: 12px;
 }
 .forum_list a, .forum_list .colhead, .forum_index a, .forum_index .colhead {
-	color: #f7f7f7;
+	color: #af3b00;
 }
 .forum_list a:hover, .forum_index a:hover {
-	color: #5AF;
+	color: orange;
 }
 .forum_list .colhead td, .forum_index .colhead td {
 	padding-top: 6px;
@@ -718,7 +718,7 @@ div#ft_container tr {
 	background: transparent;
 }
 h2 span {
-	color: white;
+	color: orange;
 }
 .filter_torrents .submit {
 	text-align: right;
@@ -732,7 +732,6 @@ h2 span {
 }
 .torrent_table tr {
 	vertical-align: top;
-	background: black;
 }
 .torrent_table tr.group {
 	background-color: #190b00;
@@ -822,7 +821,7 @@ table.forum_post td {
 table.forum_unread {
 	border-top-width: 5px;
 	border-top-style: solid;
-	border-color: #5AF;
+	border-color: #b23d00;
 }
 td.avatar {
 	width: 150px;
@@ -839,7 +838,7 @@ table.forum_post td.body {
 	padding: 5px;
 }
 strong.quoteheader {
-	color: #f7f7f7;
+	color: orange;
 }
 blockquote {
 	margin: 10px;
@@ -930,11 +929,11 @@ ul .invitetree {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111 50% 0 no-repeat fixed;
 	z-index: 1001;
 	-moz-opacity: 0.9;
 	opacity: 0.90;
 	filter: alpha(opacity=90);
+	background: black 50% 0 no-repeat fixed;
 }
 .lightbox {
 	position: fixed;
@@ -997,16 +996,16 @@ input[type="text"], input[type="email"], input[type="password"], input[type="sea
 	display: inline-block;
 	padding: 3px;
 	margin: 3px;
-	color: #9a9a9a;
 	text-decoration: none;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 2px;
 	border: none;
 	border: 1px solid #772f00;
+	color: orange;
 }
 input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:hover, input[type="email"]:focus, input[type="search"]:hover, input[type="search"]:focus, input[type="password"]:hover, input[type="password"]:focus {
-	color: #333;
+	color: orange;
 }
 input[type="text"]:active, input[type="email"]:active, input[type="search"]:active, input[type="password"]:active {
 	top: 1px;
@@ -1143,33 +1142,43 @@ table.forum_post:last-of-type {
 form textarea, form input {
     max-width: 100%;
     background: black;
-    color: orange;
-    border: black;
+    color: orange;;
 }
 
 ul.collage_images img {
-    height: 172px;
-    width: 172px;
+    height: 172px!important;
+    width: 172px!important;
     padding: 0px;
     background: #190b00;
 }
 
 ul.collage_images li a {
     display: block;
-    height: 172px;
+    height: 172px!important;
     overflow: hidden;
 }
 ul.collage_images li {
     border: none;
     float: left;
     margin: 0;
-    width: 172px;
-    height: 172px;
+    width: 172px!important;
+    height: 172px!important;
     list-style: none;
     list-style-type: none;
 }
 ul.collage_images {
     padding: 0px;
-    width: 689px;
+    width: 689px!important;
     border-collapse: collapse;
 }
+.noty_message {
+	background: #190b00;
+}
+.noty_buttons {
+	background: #190b00!important;
+	border-top: none!important;
+}
+.noty_message {color: white;}
+.noty_button_view { color: white!important;}
+.noty_button_clear { color: white!important;}
+.noty_button_close { color: white!important;}
