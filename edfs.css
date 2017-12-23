@@ -1148,23 +1148,28 @@ form textarea, form input {
 }
 
 ul.collage_images img {
-    height: 172px;
-    width: 172px;
+    height: 172px!important;
+    width: 172px!important;
     padding: 0px;
     background: #190b00;
 }
 
 ul.collage_images li a {
     display: block;
-    height: 172px;
+    height: 172px!important;
     overflow: hidden;
 }
 ul.collage_images li {
     border: none;
     float: left;
     margin: 0;
-    width: 172px;
-    height: 172px;
+    width: 172px!important;
+    height: 172px!important;
     list-style: none;
     list-style-type: none;
+}
+ul.collage_images {
+    padding: 0px;
+    width: 689px!important;
+    border-collapse: collapse;
 }
