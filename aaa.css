@@ -970,7 +970,7 @@ input[type="button"], input[type="submit"] {
 	cursor: pointer;
 }
 input[type="button"]:hover, input[type="submit"]:hover {
-	background-color: #1f1f1f;
+	background-color: #190b00;
 	color: #f7f7f7;
 }
 input[type="button"]:active, input[type="submit"]:active {
