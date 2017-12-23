@@ -1139,3 +1139,10 @@ table.forum_post:last-of-type {
 .collage_table {
 	background: #190b00;;
 }
+
+form textarea, form input {
+    max-width: 100%;
+    background: black;
+    color: orange;
+    border: black;
+}
