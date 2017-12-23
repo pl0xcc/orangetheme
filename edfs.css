@@ -100,7 +100,7 @@ a[onclick^="AddArtistField"]:focus, a[onclick^="AddArtistField"]:active {
 }
 h1, h2, h3 {
 	margin: 5px 0px;
-	color: white;
+	color: orange;
 	font-family: Lato,Arial,Helvetica,sans-serif;
 	text-align: center;
 }
@@ -1030,23 +1030,24 @@ select[disabled=disabled]:hover, select[disabled=disabled]:focus, select[disable
 select, select:active, select:focus {
 	display: inline-block;
 	margin: 3px;
-	color: #333;
+	color: orange!important;
 	text-decoration: none;
 	border: 0;
 	font-family: Lato,Arial,Helvetica,sans-serif;
+	background: black;
 }
 option, option:active, option:focus {
-	background: #111;
+	background: black;
 	padding: 1px;
 	margin: 0;
-	color: #f7f7f7;
+	color: orange;
 	text-decoration: none;
 	border: 0;
 	font-family: Lato,Arial,Helvetica,sans-serif;
 }
 select:hover, option:hover {
-	background: #3F3F3F;
-	color: #999;
+	background: black;
+	color: white;
 }
 #logchecker .thin, #logchecker h3, .log_outer, .log_outer h3 {
 	color: #444;
