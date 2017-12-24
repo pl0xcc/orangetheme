@@ -848,7 +848,7 @@ blockquote {
 	border: 1px dashed #512400;
 }
 tr.unreadpm {
-	background-color: #E0EBEF;
+	background-color: #6d2c00;
 }
 .collage_images li {
 	background-color: #F7F6F2;
@@ -971,26 +971,22 @@ input[type="button"], input[type="submit"] {
 	cursor: pointer;
 }
 input[type="button"]:hover, input[type="submit"]:hover {
-	background-color: #1f1f1f;
-	color: #f7f7f7;
+	background-color: #401900;
+	color: orange;
 }
 input[type="button"]:active, input[type="submit"]:active {
 	top: 1px;
 }
 input[type="button"]:active, input[type="submit"]:active, input[type="submit"]:focus {
-	background: #f7f7f7;
+	background: black;
 	display: inline-block;
-	padding: 3px 6px 4px;
-	margin: 3px;
-	color: #9a9a9a;
+	color: orange;
 	text-decoration: none;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 2px;
 	border-left: 0;
 	border-top: 0;
 	border-right: 0;
 	cursor: pointer;
+	outline: none;
 }
 input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
 	background: black;
@@ -1088,7 +1084,7 @@ tr.torrent .bookmark > a:after {
 	background: black;
 }
 .autocomplete-selected {
-	background: #444;
+	background: #171118;
 }
 div[class~=tooltipster-base] {
 	background-color: #ECECEC;
@@ -1193,7 +1189,5 @@ ul.collage_images {
 .noty_button_close {
     color: white!important;
 }
-.autocomplete-suggestions strong {
-    font-weight: normal;
-    color: orange!important;
-}
+
+.autocomplete-suggestions strong { font-weight: normal; color: orange!important; }
