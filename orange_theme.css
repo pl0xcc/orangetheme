@@ -1193,3 +1193,7 @@ ul.collage_images {
 .noty_button_close {
     color: white!important;
 }
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: orange!important;
+}
