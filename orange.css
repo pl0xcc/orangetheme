@@ -11,7 +11,7 @@ body {
 	background: black!important;
 	font-family: Lato,Arial,Helvetica,sans-serif;
 	font-size: 13px;
-	color: #999;
+	color: #772f00;
 	background-size: cover;
 }
 .forum_post pre {
@@ -30,13 +30,13 @@ a {
 	transition: color .25s ease-out;
 }
 a:hover {
-	color: #5AF;
+	color: white;
 }
 a img {
 	border: 0;
 }
 .forum_index tr td:nth-child(3n) a.tooltip:hover {
-	color: #5AF;
+	color: orange;
 }
 table tbody a, .main_column a, .sidebar a, .box a {
 	color: #ffa100;
@@ -105,7 +105,7 @@ h1, h2, h3 {
 	text-align: center;
 }
 h1 a, h2 a, h3 a {
-	color: #f7f7f7;
+	color: orange;
 }
 ul#noty_bottomRight_layout_container a {
 	color: #5AF;
@@ -181,7 +181,7 @@ ul.thin li {
 #content {
 	width: 960px;
 	margin: 0 auto 0 auto;
-	color: #DFDFDF;
+	color: #b23d00;
 	padding: 61px 0;
 	overflow: hidden;
 }
@@ -203,7 +203,7 @@ ul.thin li {
 	border-top: 1px solid #772800;
 }
 .forum_index tr td:nth-child(3n) a.tooltip {
-	color: #f7f7f7;
+	color: #c44200;
 }
 #footer:after {
 	content: url('https://apollo.rip/static/styles/postmod/images/gazelle.png');
@@ -272,11 +272,11 @@ div#wrapper div#content td.label {
 	padding: 0 0 2px 0;
 }
 #menu ul li a:hover {
-	border-bottom: 3px solid #EFB34A;
+	border-bottom: 3px solid black;
 	text-decoration: none;
 }
 #menu ul li a:active, #menu ul li a:focus {
-	border-bottom: 3px solid #EFA82C;
+	border-bottom: 3px solid black;
 }
 #index #nav_index a, #torrents #nav_torrents a, #collage #nav_collages a, #requests #nav_requests a, #forums #nav_forums a, #chat #nav_irc a, #top10 #nav_top10 a, #rules #nav_rules a, #wiki #nav_wiki a, #staff #nav_staff a {
 	border-bottom: 4px solid black;
@@ -352,6 +352,7 @@ li#nav_subscriptions a {
 	color: #bb4000;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 3px;
+	outline: none;
 }
 #searchbars input:hover {
 	color: white;
@@ -516,10 +517,10 @@ tr.colhead_dark td {
 	font-size: 12px;
 }
 .forum_list a, .forum_list .colhead, .forum_index a, .forum_index .colhead {
-	color: #f7f7f7;
+	color: #c44200;
 }
 .forum_list a:hover, .forum_index a:hover {
-	color: #5AF;
+	color: orange;
 }
 .forum_list .colhead td, .forum_index .colhead td {
 	padding-top: 6px;
@@ -683,7 +684,7 @@ ul.poll li.graph {
 .show_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('https://i.imgur.com/qA3ULfm.png') no-repeat center center;
+	background: url('https://cdn.rawgit.com/pl0xcc/orangetheme/master/arrow_down.png') no-repeat center center;
 	background-size: 14px auto;
 	-moz-opacity: 0.5;
 	opacity: .50;
@@ -692,7 +693,7 @@ ul.poll li.graph {
 .hide_torrents {
 	width: 28px;
 	height: 28px;
-	background: url('https://i.imgur.com/WzEcqP8.png') no-repeat center center;
+	background: url('https://cdn.rawgit.com/pl0xcc/orangetheme/master/arrow_up.png') no-repeat center center;
 	background-size: 14px auto;
 	-moz-opacity: 0.5;
 	opacity: .50;
@@ -718,7 +719,7 @@ div#ft_container tr {
 	background: transparent;
 }
 h2 span {
-	color: white;
+	color: orange;
 }
 .filter_torrents .submit {
 	text-align: right;
@@ -732,7 +733,6 @@ h2 span {
 }
 .torrent_table tr {
 	vertical-align: top;
-	background: black;
 }
 .torrent_table tr.group {
 	background-color: #190b00;
@@ -822,7 +822,7 @@ table.forum_post td {
 table.forum_unread {
 	border-top-width: 5px;
 	border-top-style: solid;
-	border-color: #5AF;
+	border-color: #b23d00;
 }
 td.avatar {
 	width: 150px;
@@ -839,7 +839,7 @@ table.forum_post td.body {
 	padding: 5px;
 }
 strong.quoteheader {
-	color: #f7f7f7;
+	color: orange;
 }
 blockquote {
 	margin: 10px;
@@ -930,11 +930,11 @@ ul .invitetree {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111 50% 0 no-repeat fixed;
 	z-index: 1001;
 	-moz-opacity: 0.9;
 	opacity: 0.90;
 	filter: alpha(opacity=90);
+	background: black 50% 0 no-repeat fixed;
 }
 .lightbox {
 	position: fixed;
@@ -971,42 +971,38 @@ input[type="button"], input[type="submit"] {
 	cursor: pointer;
 }
 input[type="button"]:hover, input[type="submit"]:hover {
-	background-color: #1f1f1f;
-	color: #f7f7f7;
+	background-color: #401900;
+	color: orange;
 }
 input[type="button"]:active, input[type="submit"]:active {
 	top: 1px;
 }
 input[type="button"]:active, input[type="submit"]:active, input[type="submit"]:focus {
-	background: #f7f7f7;
+	background: black;
 	display: inline-block;
-	padding: 3px 6px 4px;
-	margin: 3px;
-	color: #9a9a9a;
+	color: orange;
 	text-decoration: none;
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 2px;
 	border-left: 0;
 	border-top: 0;
 	border-right: 0;
 	cursor: pointer;
+	outline: none;
 }
 input[type="text"], input[type="email"], input[type="password"], input[type="search"] {
 	background: black;
 	display: inline-block;
 	padding: 3px;
 	margin: 3px;
-	color: #9a9a9a;
 	text-decoration: none;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 2px;
 	border: none;
 	border: 1px solid #772f00;
+	color: orange;
 }
 input[type="text"]:hover, input[type="text"]:focus, input[type="email"]:hover, input[type="email"]:focus, input[type="search"]:hover, input[type="search"]:focus, input[type="password"]:hover, input[type="password"]:focus {
-	color: #333;
+	color: orange;
 }
 input[type="text"]:active, input[type="email"]:active, input[type="search"]:active, input[type="password"]:active {
 	top: 1px;
@@ -1085,10 +1081,10 @@ tr.torrent .bookmark > a:after {
 	width: 600px;
 }
 .autocomplete-suggestions {
-	background: #111;
+	background: black;
 }
 .autocomplete-selected {
-	background: #444;
+	background: #171118;
 }
 div[class~=tooltipster-base] {
 	background-color: #ECECEC;
@@ -1143,28 +1139,55 @@ table.forum_post:last-of-type {
 form textarea, form input {
     max-width: 100%;
     background: black;
-    color: orange;
-    border: black;
+    color: orange;;
 }
 
 ul.collage_images img {
-    height: 172px;
-    width: 172px;
+    height: 172px!important;
+    width: 172px!important;
     padding: 0px;
     background: #190b00;
 }
 
 ul.collage_images li a {
     display: block;
-    height: 172px;
+    height: 138px!important;
     overflow: hidden;
 }
 ul.collage_images li {
     border: none;
     float: left;
     margin: 0;
-    width: 172px;
-    height: 172px;
+    width: 138px!important;
+    height: 138px!important;
     list-style: none;
     list-style-type: none;
 }
+ul.collage_images {
+    padding: 0px;
+    width: 701px!important;
+    border-collapse: collapse;
+}
+
+.noty_buttons {
+    background: #190b00!important;
+    border-top: none!important;
+}
+.noty_message {
+    color: white;
+}
+
+.noty_message {
+    background: #190b00;
+}
+.noty_button_view {
+    color: white!important;
+}
+.noty_button_clear {
+    color: white!important;
+}
+.noty_button_close {
+    color: white!important;
+}
+
+.autocomplete-suggestions strong { font-weight: normal; color: orange!important; }
