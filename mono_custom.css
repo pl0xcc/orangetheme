@@ -32,6 +32,7 @@ body {
     color: #eee;
     background-position-y: -97px!important;
     background-color: #303030!important;
+    background-repeat: no-repeat!important;
 }
 
 table {
