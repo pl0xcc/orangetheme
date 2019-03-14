@@ -1631,7 +1631,7 @@ input[type="radio"] + label {
 }
 
 .invalid, .warning, .error, .new {
-    color: #999;
+    color: #ff7800;
 }
 
 strong.important_text {
